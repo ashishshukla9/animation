@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+::selection {
+  color: rgb(232, 145, 47);
+}
+
+.green {
+  background-color: #84C862;
+}
+.size svg{
+  font-size:80px;
+}
+
+.temperature {
+  font-size: 100px;
+  color: #fff;
+}
+
+.value {
+  font-weight: 400;
+}
+
+.bg-gray {
+  background-color: rgb(255 255 255 / 27%);
+}
+
+.unit {
+  font-size: 24px;
+  margin-left: 5px;
+}
